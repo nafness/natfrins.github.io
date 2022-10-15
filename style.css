@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;1,300;1,400&family=Inria+Serif:ital,wght@0,300;0,400;1,300;1,400&family=Oswald:wght@200;300;400;500&family=Play:wght@400;700&display=swap');
+/* font-family: 'Inria Sans', sans-serif;
+font-family: 'Inria Serif', serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Play', sans-serif; */
+
+* {
+    box-sizing: content-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    /* opacity: 0.4;
+    filter: alpha(opacity=40); */
+}
+li {
+    list-style: none;
+}
+/* ============== style HEADER ============== */
+.header {
+    background-color: #191818;
+    height: 70px;
+    padding: 10px;
+    
+}
+.header-logo {
+    padding: 10px 40px;
+    float: left;
+    cursor: pointer;
+}
+.header-list li {
+    color: #fff;
+    float: left;
+    padding: 15px 50px;
+    cursor: pointer;
+    font-family: 'Inria Serif';
+    font-weight: 300;
+    font-size: 14px;
+}
+/* ============== END header ============== */
+
+
+/* ============= MAIN =============== */
+.main {
+    padding: 100px 80px;
+}
+
+/* ------------- .copy-container ----------- */
+.copy-container h2{
+    font-size: 28px;
+    font-family: 'Oswald';
+    font-weight: 400;
+    color: #000;
+}
+.copy-container h1 {
+    font-size: 68px;
+    font-family: 'Play';
+    font-weight: 600;
+    color: #191818;
+    text-shadow: 3px 2px 1px #ff7b00;
+}
+.copy-container span {
+    color: #ff7b00;
+    text-shadow: 3px 3px 1px #191818;
+}
+.copy-container h3 {
+    font-size: 20px;
+    font-family: 'Inria Sans';
+    font-weight: 300;
+    color: #191818;
+}
+/* ------------- END .copy-container ----------- */
+
+/* ------------- .contents ----------- */
+.contents {
+    height: 500px;
+    margin-top: 100px;
+}
+.section-title {
+    font-size: 24px;
+    font-family: 'Oswald';
+    font-weight: 300;
+    letter-spacing: 2px;
+    border-bottom: 1px solid #a19d9d;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+    color: #000;
+}
+.contents-item {
+    float: left;
+    margin-right: 115px;
+}
+.contents-item p {
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Inria Sans';
+    text-align: center;
+    margin-top: 20px;
+    color: #191818;
+}
+/* ------------- END .contents ----------- */
+
+/* ------------- .contact-form ----------- */
+.contact-form {
+    padding-top: 50px;
+}
+input, textarea {
+    width: 400px;
+    margin: 10px 0 30px 0;
+    padding: 20px;
+    font-size: 18px;
+    font-family: 'Inria Serif';
+    font-weight: 300;
+    color: #191818;
+    border: 1px solid #dee7ec;
+}
+.contact-form p {
+    color: #000;
+    font-family: 'Inria Sans';
+    font-weight: 300;
+    font-size: 20px;
+}
+.contact-submit {
+    background-color: #dee7ec;
+    color: #000;
+    font-size: 18px;
+    cursor: pointer;
+}
+/* ------------- END .contact-form ----------- */
+
+/* ============= MAIN =============== */
+
+/* ============= FOOTER =============== */
+.footer {
+    background-color: #000;
+    height: 120px;
+    padding: 40px;
+    color: #fff;
+}
+.footer-logo {
+    font-size: 28px;
+    font-family: 'Inria Sans';
+    float: left;
+    font-weight: 200;
+    padding: 20px;
+}
+.footer-list {
+    float: right;
+}
+.footer-list li {
+    font-size: 15px;
+    font-family: 'Inria Serif';
+    font-weight: 200;
+    padding-bottom: 25px;
+    cursor: pointer;
+}
+/* ============= END footer =============== */
+
+
